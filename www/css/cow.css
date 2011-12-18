@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* *** Begin Common *** */
+body {
+	font-size: 16px;
+	line-height: 20px;
+	font-family: monospace;
+}
+
+a {
+	color: #000000;
+}
+
+#global {
+	margin: 0 0 0 10px
+}
+
+#cow {
+	margin: 0;
+}
+
+#options {
+	margin: 20px 0 0 0;
+}
+
+#quote {
+	margin: 15px 0 0 0;
+	font-size: 12px;
+	color: #808080;
+	width: 500px;
+}
+
+#copyright {
+	margin: 10px 0 0 0;
+	font-size: 12px;
+}
+/* *** End Common *** */
+/* *** Begin Clearfix *** */
+.clearfix {
+	display: inline-block; /* IE7 xhtml*/
+}
+html[xmlns] .clearfix { /* O */
+	display: block;  
+}
+.clearfix:after { /* FF, O, etc. */
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/* *** End Clearfix *** */
